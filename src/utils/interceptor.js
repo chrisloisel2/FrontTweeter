@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const MyAxios = axios.create({
-	baseURL: "http://localhost:3001",
+	baseURL: "http://reactnativeaws-env.eba-5bsvutew.eu-north-1.elasticbeanstalk.com/",
 });
 
 MyAxios.interceptors.request.use((request) => {

@@ -10,7 +10,7 @@ function App() {
 	return (
 		<Router>
 			<Routes>
-				<Route path="/login" element={<Login />} />
+				<Route path="/" element={<Login />} />
 				<Route path="/subscribe" element={<Subscribe />} />
 				<Route path="/scroll" element={<ProtectedRoute element={<InfiniteScroll />} />} />
 			</Routes>
